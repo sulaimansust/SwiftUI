@@ -12,6 +12,7 @@
 		4DA742C229424A4F00CE9233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA742C129424A4F00CE9233 /* Assets.xcassets */; };
 		4DA742C529424A4F00CE9233 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA742C429424A4F00CE9233 /* Preview Assets.xcassets */; };
 		4DB6F20029428346003C5CC6 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB6F1FF29428346003C5CC6 /* CircleImage.swift */; };
+		4DB6F202294284AE003C5CC6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB6F201294284AE003C5CC6 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		4DA742C129424A4F00CE9233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DA742C429424A4F00CE9233 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4DB6F1FF29428346003C5CC6 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		4DB6F201294284AE003C5CC6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				4DA742BD29424A4E00CE9233 /* CombineViewApp.swift */,
 				4DA742BF29424A4E00CE9233 /* ContentView.swift */,
 				4DB6F1FF29428346003C5CC6 /* CircleImage.swift */,
+				4DB6F201294284AE003C5CC6 /* MapView.swift */,
 				4DA742C129424A4F00CE9233 /* Assets.xcassets */,
 				4DA742C329424A4F00CE9233 /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DA742C029424A4E00CE9233 /* ContentView.swift in Sources */,
+				4DB6F202294284AE003C5CC6 /* MapView.swift in Sources */,
 				4DA742BE29424A4E00CE9233 /* CombineViewApp.swift in Sources */,
 				4DB6F20029428346003C5CC6 /* CircleImage.swift in Sources */,
 			);

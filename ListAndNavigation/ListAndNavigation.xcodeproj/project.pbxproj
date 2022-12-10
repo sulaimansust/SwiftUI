@@ -18,6 +18,7 @@
 		4DB6F22D29428AEB003C5CC6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB6F22B29428AEB003C5CC6 /* MapView.swift */; };
 		4DB6F2382942923A003C5CC6 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB6F2372942923A003C5CC6 /* LandmarkList.swift */; };
 		4DB6F23929429365003C5CC6 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB6F23329428B71003C5CC6 /* LandmarkRow.swift */; };
+		4DB6F23B294296B9003C5CC6 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB6F23A294296B9003C5CC6 /* LandmarkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		4DB6F22B29428AEB003C5CC6 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		4DB6F23329428B71003C5CC6 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		4DB6F2372942923A003C5CC6 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		4DB6F23A294296B9003C5CC6 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				4DB6F2112942875B003C5CC6 /* ContentView.swift */,
 				4DB6F23329428B71003C5CC6 /* LandmarkRow.swift */,
 				4DB6F2372942923A003C5CC6 /* LandmarkList.swift */,
+				4DB6F23A294296B9003C5CC6 /* LandmarkDetail.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				4DB6F22D29428AEB003C5CC6 /* MapView.swift in Sources */,
 				4DB6F2232942899B003C5CC6 /* ModelData.swift in Sources */,
 				4DB6F2382942923A003C5CC6 /* LandmarkList.swift in Sources */,
+				4DB6F23B294296B9003C5CC6 /* LandmarkDetail.swift in Sources */,
 				4DB6F2102942875B003C5CC6 /* ListAndNavigationApp.swift in Sources */,
 				4DB6F22129428883003C5CC6 /* Landmark.swift in Sources */,
 				4DB6F23929429365003C5CC6 /* LandmarkRow.swift in Sources */,

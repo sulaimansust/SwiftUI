@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D55B1CC294502C000E09416 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D55B1CB294502C000E09416 /* FavoriteButton.swift */; };
 		4DB6F2102942875B003C5CC6 /* ListAndNavigationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB6F20F2942875B003C5CC6 /* ListAndNavigationApp.swift */; };
 		4DB6F2122942875B003C5CC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB6F2112942875B003C5CC6 /* ContentView.swift */; };
 		4DB6F2142942875C003C5CC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB6F2132942875C003C5CC6 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D55B1CB294502C000E09416 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		4DB6F20C2942875B003C5CC6 /* ListAndNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListAndNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DB6F20F2942875B003C5CC6 /* ListAndNavigationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAndNavigationApp.swift; sourceTree = "<group>"; };
 		4DB6F2112942875B003C5CC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				4DB6F23329428B71003C5CC6 /* LandmarkRow.swift */,
 				4DB6F2372942923A003C5CC6 /* LandmarkList.swift */,
 				4DB6F23A294296B9003C5CC6 /* LandmarkDetail.swift */,
+				4D55B1CB294502C000E09416 /* FavoriteButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				4DB6F2122942875B003C5CC6 /* ContentView.swift in Sources */,
 				4DB6F22D29428AEB003C5CC6 /* MapView.swift in Sources */,
 				4DB6F2232942899B003C5CC6 /* ModelData.swift in Sources */,
+				4D55B1CC294502C000E09416 /* FavoriteButton.swift in Sources */,
 				4DB6F2382942923A003C5CC6 /* LandmarkList.swift in Sources */,
 				4DB6F23B294296B9003C5CC6 /* LandmarkDetail.swift in Sources */,
 				4DB6F2102942875B003C5CC6 /* ListAndNavigationApp.swift in Sources */,

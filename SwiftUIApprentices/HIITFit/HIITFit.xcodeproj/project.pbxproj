@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F70B7C3F2A5D470F008CE1E0 /* PageIndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B7C3E2A5D470F008CE1E0 /* PageIndexView.swift */; };
+		F70B7C412A5D4732008CE1E0 /* OnboardingPagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B7C402A5D4732008CE1E0 /* OnboardingPagerView.swift */; };
 		F7738B3B2A1E08D300F83902 /* HIITFitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7738B3A2A1E08D300F83902 /* HIITFitApp.swift */; };
 		F7738B3D2A1E08D300F83902 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7738B3C2A1E08D300F83902 /* ContentView.swift */; };
 		F7738B3F2A1E08D500F83902 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7738B3E2A1E08D500F83902 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 		F7738B4C2A1E08D600F83902 /* HIITFitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7738B4B2A1E08D600F83902 /* HIITFitTests.swift */; };
 		F7738B562A1E08D600F83902 /* HIITFitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7738B552A1E08D600F83902 /* HIITFitUITests.swift */; };
 		F7738B582A1E08D600F83902 /* HIITFitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7738B572A1E08D600F83902 /* HIITFitUITestsLaunchTests.swift */; };
+		F7738B652A1E2CD000F83902 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7738B642A1E2CD000F83902 /* WelcomeView.swift */; };
+		F7738B672A1E2CED00F83902 /* ExcerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7738B662A1E2CED00F83902 /* ExcerciseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F70B7C3E2A5D470F008CE1E0 /* PageIndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIndexView.swift; sourceTree = "<group>"; };
+		F70B7C402A5D4732008CE1E0 /* OnboardingPagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPagerView.swift; sourceTree = "<group>"; };
 		F7738B372A1E08D300F83902 /* HIITFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HIITFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7738B3A2A1E08D300F83902 /* HIITFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIITFitApp.swift; sourceTree = "<group>"; };
 		F7738B3C2A1E08D300F83902 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +50,8 @@
 		F7738B512A1E08D600F83902 /* HIITFitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HIITFitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7738B552A1E08D600F83902 /* HIITFitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIITFitUITests.swift; sourceTree = "<group>"; };
 		F7738B572A1E08D600F83902 /* HIITFitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIITFitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F7738B642A1E2CD000F83902 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		F7738B662A1E2CED00F83902 /* ExcerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcerciseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				F7738B3A2A1E08D300F83902 /* HIITFitApp.swift */,
-				F7738B3C2A1E08D300F83902 /* ContentView.swift */,
+				F7738B682A1E2CFF00F83902 /* Views */,
 				F7738B3E2A1E08D500F83902 /* Assets.xcassets */,
 				F7738B402A1E08D500F83902 /* Preview Content */,
 			);
@@ -125,6 +133,26 @@
 				F7738B572A1E08D600F83902 /* HIITFitUITestsLaunchTests.swift */,
 			);
 			path = HIITFitUITests;
+			sourceTree = "<group>";
+		};
+		F7738B682A1E2CFF00F83902 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F798BCE02A5E8C39003B22D4 /* PagerView */,
+				F7738B3C2A1E08D300F83902 /* ContentView.swift */,
+				F7738B642A1E2CD000F83902 /* WelcomeView.swift */,
+				F7738B662A1E2CED00F83902 /* ExcerciseView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F798BCE02A5E8C39003B22D4 /* PagerView */ = {
+			isa = PBXGroup;
+			children = (
+				F70B7C3E2A5D470F008CE1E0 /* PageIndexView.swift */,
+				F70B7C402A5D4732008CE1E0 /* OnboardingPagerView.swift */,
+			);
+			path = PagerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7738B672A1E2CED00F83902 /* ExcerciseView.swift in Sources */,
 				F7738B3D2A1E08D300F83902 /* ContentView.swift in Sources */,
+				F7738B652A1E2CD000F83902 /* WelcomeView.swift in Sources */,
+				F70B7C412A5D4732008CE1E0 /* OnboardingPagerView.swift in Sources */,
 				F7738B3B2A1E08D300F83902 /* HIITFitApp.swift in Sources */,
+				F70B7C3F2A5D470F008CE1E0 /* PageIndexView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +431,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
